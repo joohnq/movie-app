@@ -5,7 +5,7 @@ import { Movie } from './pages/Movie'
 import { Search } from './pages/Search'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import { App } from './App'
-require('dotenv').config()
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
