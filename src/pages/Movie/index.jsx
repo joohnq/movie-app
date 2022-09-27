@@ -37,11 +37,11 @@ export const Movie = () => {
   }, []);
 
   return (
-    <div className="home-page">
+    <div className="movie-page">
       {movie && (
         <>
           <MovieCard movie={movie} showLink={false} />
-          <p className="tagline"></p>
+          <p className="tagline">{movie.tagline}</p>
           <div className="info">
             <h3>
               <BsWallet2 /> Orçamento
