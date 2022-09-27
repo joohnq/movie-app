@@ -3,7 +3,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #121212;
+  background-color: #000000;
+  border-bottom: 2px solid rgba(72, 72, 72, 0.5);
 }
 
 #navbar h2 a {
@@ -39,4 +40,19 @@
 #navbar form button:hover {
   background-color: transparent;
   color: #f7d354;
+}
+
+@media (max-width: 500px) {
+  #navbar{
+    flex-direction: column;
+    gap: .5rem;
+  }
+
+  #navbar form{
+    width: 80%;
+  }
+
+  #navbar input{
+    width: 100%;
+  }
 }

@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { FaStar } from "react-icons/fa"; //Icon de estrela
-import "./style.css";
 
 const imageUrl = import.meta.env.VITE_IMG;
 
